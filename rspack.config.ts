@@ -22,7 +22,7 @@ export default withZephyr()({
   },
 
   devServer: {
-    port: 8081,
+    port: 8080,
     historyApiFallback: true,
     watchFiles: [path.resolve(__dirname, "src")],
   },
@@ -30,7 +30,7 @@ export default withZephyr()({
     // You need to set a unique value that is not equal to other applications
     uniqueName: "host_test",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:8081/",
+    publicPath: "http://localhost:8080/",
   },
 
   experiments: {
